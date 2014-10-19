@@ -28,77 +28,77 @@ Once you have these, building IT.EXE should be just a single call to `MAKE`
 Quick File Overview
 -------------------
 
--	IT.ASM
+-	IT.ASM:
 	Startup routines
 	
--	IT\_DISK.ASM
+-	IT\_DISK.ASM:
 	Disk IO Routines. Uses IT\_D\_\*.INC files
 
--	IT\_DISPL.ASM
+-	IT\_DISPL.ASM:
 	Display routines for the Playback Screen (F5)
 
--	IT\_EMS.ASM
+-	IT\_EMS.ASM:
 	EMS memory handling routines
 
--	IT\_F.ASM
+-	IT\_F.ASM:
 	Collection of functions used by the object model
 
--	IT\_FOUR.ASM
+-	IT\_FOUR.ASM:
 	Fast Fourier routines. Used by the graphic equalizer (Alt-F12).
 	Not available on all all sound cards
 
--	IT\_G.ASM
+-	IT\_G.ASM:
 	Global key handler functions
 
--	IT\_H.ASM
+-	IT\_H.ASM:
 	Help Module (F1)
 
--	IT\_I.ASM
+-	IT\_I.ASM:
 	Sample list (F3) and Instrument list (F4) module 
 
--	IT\_K.ASM
+-	IT\_K.ASM:
 	Keyboard module
 
--	IT\_L.ASM
+-	IT\_L.ASM:
 	Information line code
 
--	IT\_M.ASM
+-	IT\_M.ASM:
 	Main message loop/dispatcher
 
--	IT\_MDATA.ASM
+-	IT\_MDATA.ASM:
 	Global music variable data
 
--	IT\_MMTSR.ASM
+-	IT\_MMTSR.ASM:
 	Sample compression/decompression routines
 
--	IT\_MOUSE.ASM
+-	IT\_MOUSE.ASM:
 	Mouse handling code
 
--	IT\_MSG.ASM
+-	IT\_MSG.ASM:
 	Message editor module (Shift-F9)
 
--	IT\_MUSIC.ASM
+-	IT\_MUSIC.ASM:
 	Module playback code. Also uses IT\_M\_EFF.INC
 
--	IT\_NET.ASM
+-	IT\_NET.ASM:
 	Network code
 
--	IT\_OBJ1.ASM
+-	IT\_OBJ1.ASM:
 	UI object definitions
 
--	IT\_PE.ASM
+-	IT\_PE.ASM:
 	Pattern Editor module (F2)
 
--	IT\_S.ASM
+-	IT\_S.ASM:
 	Screen functions, including character generation
 
--	IT\_TUTE.ASM
+-	IT\_TUTE.ASM:
 	Interactive Tutorial module
 
--	IT\_VESA.ASM
+-	IT\_VESA.ASM:
 	VESA code for graphic equalizer
 
--	SWITCH.INC
+-	SWITCH.INC:
 	High level switches for the program
 
  
