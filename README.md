@@ -101,7 +101,33 @@ Quick File Overview
 -	SWITCH.INC:
 	High level switches for the program
 
+
+
+Frequently Asked Questions
+--------------------------
+
+Q: "What are all those funny characters in the source code?"
+
+A: I wrote the original source code using DOS characters, with characters drawing borders/boxes in 
+comments in the source code. In the interests of posterity, I have left the code intact as it was.
+
+
+Q: "Why didn't you use STRUCs or ENUMs" in your ASM source? 
+
+A: Simply because I didn't know about them at the time. I wish I did. There's a InternalDocumentation 
+folder that I've included in the repository that details what some of the magic numbers appearing 
+through the code might mean.
+ 
+
+Q: "Flow in some functions seems to jump all over the place. Why?"
+
+A: The original code was compatible all the way back to an 8086 machine. 8086 would allow you to do 
+conditional jumps only within +/-128 bytes, so I spent too much time shuffling code around to meet 
+this restriction. When I shifted away from this 8086 restriction, I never went back to update the 
+code that was mutilated by it.
  
+
+
 License
 -------
 
