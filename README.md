@@ -102,3 +102,7 @@ Quick File Overview
 	High level switches for the program
 
  
+License
+-------
+
+License for this source code is pending.
