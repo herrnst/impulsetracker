@@ -23,6 +23,10 @@ To build Impulse Tracker, you will need:
 
 Once you have these, building IT.EXE should be just a single call to `MAKE`
 
+
+Sound drivers are build individually via M\*.BAT files inside the SoundDrivers
+subdirectory
+
  
 
 Quick File Overview
